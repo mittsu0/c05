@@ -6,7 +6,7 @@
 /*   By: unix_user <unix_user@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 23:32:38 by unix_user         #+#    #+#             */
-/*   Updated: 2022/03/30 23:26:02 by unix_user        ###   ########.fr       */
+/*   Updated: 2022/04/01 01:26:48 by unix_user        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ int	ft_find_next_prime(int nb)
 			return (nb + i);
 		i++;
 	}
+	return (2147483647);
 }
 
 // #include <stdio.h>
@@ -54,4 +55,5 @@ int	ft_find_next_prime(int nb)
 // 	printf("10000000:%d\n", ft_find_next_prime(10000000));
 // 	printf("2147395600:%d\n", ft_find_next_prime(2147395600));
 // 	printf("2147483646:%d\n", ft_find_next_prime(2147483646));
+// 	printf("2147483647:%d\n", ft_find_next_prime(2147483647));
 // }

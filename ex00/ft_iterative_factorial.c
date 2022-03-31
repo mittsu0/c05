@@ -6,11 +6,11 @@
 /*   By: unix_user <unix_user@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 23:32:38 by unix_user         #+#    #+#             */
-/*   Updated: 2022/03/30 23:10:36 by unix_user        ###   ########.fr       */
+/*   Updated: 2022/04/01 01:26:35 by unix_user        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_recursive_factorial(int nb)
+int	ft_iterative_factorial(int nb)
 {
 	int	ans;
 
@@ -29,8 +29,8 @@ int	ft_recursive_factorial(int nb)
 
 // int	main(void)
 // {
-// 	printf("%d\n", ft_recursive_factorial(-1));
-// 	printf("%d\n", ft_recursive_factorial(0));
-// 	printf("%d\n", ft_recursive_factorial(1));
-// 	printf("%d\n", ft_recursive_factorial(5));
+// 	printf("%d\n", ft_iterative_factorial(-1));
+// 	printf("%d\n", ft_iterative_factorial(0));
+// 	printf("%d\n", ft_iterative_factorial(1));
+// 	printf("%d\n", ft_iterative_factorial(5));
 // }
